@@ -20,15 +20,48 @@ This project is an intelligent, console-based financial analysis system designed
 
 ---
 
-### 🛠️ How to Run
-1. **Clone the Repository:**
-   `git clone https://github.com/NishantScripts/Quantitative-Trading-Engine.git`
-2. **Install Dependencies:**
-   Ensure you have Python installed, then run: `pip install requests pandas`
-3. **Execute:**
-   Run the script using your terminal or Python IDE: `python algo_trader.py`
-4. **View Output:**
-   The script will instantly fetch live data and display the current market trend (Uptrend/Downtrend) alongside a generated signal (BUY or SELL/WAIT).
+### 💻 Output Dashboard
+The script features a clean, formatted terminal dashboard that converts live prices dynamically. Here is an example of the real-time execution:
+
+    ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+     🚀 QUANTITATIVE TRADING ENGINE (PRO) 🚀
+    ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+    [*] Initializing system parameters...
+    [*] Fetching real-time market data via Binance API...
+
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     📊 LIVE MARKET DASHBOARD (INR)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     💰 Current Price    : ₹ 6,306,891.94
+     📈 9-Day Average (S) : ₹ 6,446,144.80
+     📉 21-Day Average (L): ₹ 6,605,714.90
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+     🎯 ALGORITHMIC SIGNAL:
+     🔴 STATUS : [ SELL / WAIT ]
+     📝 REASON : Market is in a DOWNTREND.
+                 (Short-term momentum < Long-term momentum)
+
+    ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
 
 ---
-*Developed by [NishantScripts](https://github.com/NishantScripts)*
+
+### 🛠️ How to Run
+
+1. **Clone the Repository:**
+    git clone https://github.com/NishantScripts/Quantitative-Trading-Engine-Pro.git
+
+2. **Install Dependencies:**
+    Ensure you have Python installed, then run:
+    pip install requests pandas
+
+3. **Execute:**
+    Run the script using your terminal or Python IDE:
+    python algo_main.py
+
+4. **View Output:**
+    The script will instantly fetch live data and display the current market trend (Uptrend/Downtrend) alongside a generated signal (BUY or SELL/WAIT).
+
+---
+*Developed by [Nishant Sandiprao Walse](https://github.com/NishantScripts)*
