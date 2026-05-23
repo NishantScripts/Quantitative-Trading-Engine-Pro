@@ -64,4 +64,4 @@ The script features a clean, formatted terminal dashboard that converts live pri
     The script will instantly fetch live data and display the current market trend (Uptrend/Downtrend) alongside a generated signal (BUY or SELL/WAIT).
 
 ---
-*Developed by [Nishant Sandiprao Walse](https://github.com/NishantScripts)*
+*Developed by [NishantScripts](https://github.com/NishantScripts)*
